@@ -1,11 +1,8 @@
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
-
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-
   "profiles": {
     "defaults": {
       // Put settings here that you want to apply to all profiles
@@ -33,6 +30,20 @@
         "closeOnExit": "graceful"
       },
       {
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Windows.Terminal.Wsl",
+        "colorScheme": "Andromeda",
+        "fontFace": "Cascadia Code PL",
+        "antialiasingMode": "grayscale",
+        "fontSize": 10,
+        "cursorShape": "vintage",
+        "scrollbarState": "hidden",
+        "startingDirectory": "d:\\dev",
+        "closeOnExit": "graceful"
+      },
+      {
         // Make changes here to the powershell.exe profile
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "Windows PowerShell",
@@ -46,13 +57,6 @@
         "commandline": "cmd.exe",
         "hidden": false
       },
-
-      {
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "hidden": false,
-        "name": "Ubuntu",
-        "source": "Windows.Terminal.Wsl"
-      },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "hidden": false,
@@ -61,7 +65,6 @@
       }
     ]
   },
-
   // Add custom color schemes to this array
   "schemes": [
     {
@@ -85,7 +88,6 @@
       "background": "#1b1d1e",
       "foreground": "#6f6f6f"
     },
-
     {
       "name": "Monokai Seti Dark",
       "foreground": "#F8F8F2",
@@ -107,7 +109,6 @@
       "yellow": "#FA8419",
       "brightYellow": "#FA8419"
     },
-
     {
       "name": "Monokai Night",
       "background": "#1f1f1f",
@@ -129,7 +130,6 @@
       "brightWhite": "#f8f8f2",
       "brightYellow": "#e6db74"
     },
-
     {
       "name": "Andromeda",
       "black": "#000000",
@@ -152,7 +152,6 @@
       "foreground": "#e5e5e5"
     }
   ],
-
   // Add any keybinding overrides to this array.
   // To unbind a default keybinding, set the command to "unbound"
   "keybindings": [
