@@ -6,6 +6,7 @@ Themes:
 
 - https://atomcorp.github.io/themes/
 - https://terminalsplash.com/
+- https://themer.dev/
 
 1. Install PS : https://github.com/PowerShell/PowerShell/releases
 
